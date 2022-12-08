@@ -1,0 +1,129 @@
+body{
+    background: #e5e5e5;;
+}
+h2{
+    position:absolute;
+    width: 560px;
+    height: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height:47px;
+    color:#000000;
+}
+.head{
+    position:absolute;
+    width: 1170;
+    height: 100px;
+    left: 15px;
+    top:0px;
+    background: #7FAFF7;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background: #B3F95A;
+}
+#one{
+position: absolute;
+width: 390px;
+height: 198px;
+background:  #8AD191;
+left: 0px;
+top: 0px;
+}
+#two{
+    position: absolute;
+    width: 590px;
+    height: 198px;
+    background:  #8AD191;
+    left: 405px;
+    top:0px;
+}
+#three{
+    position: absolute;
+    width: 160px; 
+    background:  #8AD191;
+    height: 198px;
+    left: 1010px;
+    top:0px;
+}
+#four{
+    position: absolute;
+    width: 995px; 
+    background:  #8AD191;
+    height: 198px;
+    left: 0px;
+    top:213px;
+}
+#five{
+    position: absolute;
+    width: 160px; 
+    background:  #8AD191;
+    height: 198px;
+    left: 1010px;
+    top: 213px;
+}
+span{
+    position: absolute; 
+    width: 30px;
+    height: 62px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 62px;
+    color:#ffffff;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.block-1{
+position:absolute;
+width: 1170px;
+height: 411px;
+left: 15px;
+top: 115px;
+background: #B3F95A;
+}
+.container-2{
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-around;
+}
+.block-2{
+display:flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px; 
+gap:30px; 
+
+position: absolute;
+width: 1170;
+height: 259px;
+left: 15px;
+top:541px;
+background: #88B5BF;
+}
+.end{
+width: 255px;
+height: 199px;
+background: #0D89B0;
+flex:none;
+order:0;
+align-self:stretch;
+flex-grow:1;
+}
+.foot{
+    position:absolute;
+    width: 1170px;
+    height: 100px;
+    left:15px;
+    top:900px;
+    background: #7FAFF7;
+}
